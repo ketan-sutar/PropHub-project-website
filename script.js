@@ -1,4 +1,6 @@
 function locomotiveAnimation(){
+
+  
     gsap.registerPlugin(ScrollTrigger);
 
 // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
@@ -202,21 +204,15 @@ tl.fromTo(".social .socail-li a ",{
 
 
 function toggle(){
-  if (window.innerWidth > 600) {
-    tl.timeScale(2);
-    tl.play();
-  }
-  // tl.timeScale(2);
-  // tl.play()
+  
+  tl.timeScale(2);
+  tl.play()
 }
 
 function toggleCls(){
-  if (window.innerWidth > 600) {
-    tl.timeScale(3);
-    tl.reverse();
-  }
-  // tl.timeScale(3);
-  // tl.reverse()
+  
+  tl.timeScale(3);
+  tl.reverse()
   
 
 
