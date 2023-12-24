@@ -868,7 +868,7 @@ html, body {
     }
 
     #page1 {
-        min-height: 100vh;
+        min-height: 140vh;
         /* background-color: aqua; */
         position: relative;
         width: 100%;
@@ -879,7 +879,7 @@ html, body {
     .bgimg img{
         width: 100%;
         object-fit: cover;
-        height: 100vh;
+        height: 140vh;
         opacity: 0.9;
     }
     #headings{
@@ -908,6 +908,7 @@ html, body {
         align-items: center;
         justify-content: center;
         gap: 20px;
+        flex-direction: column;
         flex-wrap: wrap;
         padding: 2vw 8vw;
     }
