@@ -804,8 +804,34 @@ html, body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile size */
 @media (max-width:600px) {
+
+    body{
+        background-color: red;
+    }
 
 
     #nav-bar{
@@ -1003,67 +1029,8 @@ html, body {
     
     }
 
-    .ul{
-        position: absolute;
-        left: 20%;
-        display: flex;
-        /* top: 100px; */
-        width: 300px;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        text-decoration: none;
-        flex-direction: column;
     
-    
-    }
-
-    
-    .ul li{
-        margin: 20px 0;
-        z-index: 2;
-        text-decoration: none;
-
-    }
-
-    .ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 9vw;
-        transition: 2s;
-        mix-blend-mode: difference;
-
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-
-    }
-
-    .menu .social{
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        height: 80px;
-        width: 100%;
-        margin-left: 50px;
-    }
-
-
-    .social li{
-        display: flex;
-        margin: 0px 10px;
-    }
-
-    .social li a{
-        text-decoration: none;
-        color: white;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 4vw;
-        text-transform: uppercase;
-        font-weight: lighter;
-        letter-spacing: 1px
-    }
-
+       
     
 
     #page2 {

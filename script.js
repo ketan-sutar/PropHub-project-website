@@ -202,13 +202,21 @@ tl.fromTo(".social .socail-li a ",{
 
 
 function toggle(){
-  tl.timeScale(2);
-  tl.play()
+  if (window.innerWidth > 600) {
+    tl.timeScale(2);
+    tl.play();
+  }
+  // tl.timeScale(2);
+  // tl.play()
 }
 
 function toggleCls(){
-  tl.timeScale(3);
-  tl.reverse()
+  if (window.innerWidth > 600) {
+    tl.timeScale(3);
+    tl.reverse();
+  }
+  // tl.timeScale(3);
+  // tl.reverse()
   
 
 
