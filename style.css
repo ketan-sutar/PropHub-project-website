@@ -806,6 +806,8 @@ html, body {
 
 /* mobile size */
 @media (max-width:600px) {
+
+
     #nav-bar{
         width: 100%;
         display: flex;
@@ -853,9 +855,15 @@ html, body {
         border: none;
         font-size: 4vw;
     }
+    html, body {
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+    }
 
     #main{
         width: 100%;
+        overflow-y: auto;
         /* min-height: fit-content; */
     }
 
