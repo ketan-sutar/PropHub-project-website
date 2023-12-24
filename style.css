@@ -983,7 +983,7 @@ html, body {
         height: 100vh;
         z-index: 9999;
         text-decoration: none;
-        background-color: rgba(255, 0, 0, 0.8); /* Background color with some transparency */
+        background-color: rgba(205, 198, 198, 0.8); /* Background color with some transparency */
         backdrop-filter: blur(10px);
         /* background-color: grey; */
         transform: translateX(-100%);
@@ -995,10 +995,9 @@ html, body {
         top: 100px;    
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: end;
-        font-size: 5vw;
+        font-size: 6vw;
         width: 100%;
         text-decoration: none;
-        cursor: pointer;
         padding-right: 14vw;
         position: absolute;
     
